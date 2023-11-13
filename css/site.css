@@ -1,0 +1,269 @@
+/* Plano de fundo */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*  Scroll do Mouse  */
+
+body::-webkit-scrollbar {
+	width: 5px;
+	background-color: #141414;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: rgba(59, 59, 59, 0.897);
+	border-radius: 20px;
+	border: 3px solid rgb(61, 61, 61);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: #101010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150vh;
+}
+
+
+.background {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+/* Cabeçalho */
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+
+
+}
+
+.cabeçalho-link {
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+    text-decoration: none;
+    list-style: none;
+}
+
+.cabeçalho-link a {
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.cabeçalho-link a:hover {
+    color: #2ecc71;
+    transition: 0.3s all;
+}
+
+.logo i {
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid #2ecc71;
+    color: #2ecc71;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+
+
+
+/* Card da Barra de Links*/
+
+.link {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    top: 30px;
+
+}
+
+
+
+.text {
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.link .card {
+
+    color: #fff;
+    width: 1000px;
+    height: 70px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.712);
+    border-radius: 15px;
+    background: #ffffff13;
+}
+
+
+nav {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 17px;
+    text-align: center;
+    align-items: center;
+}
+
+nav a {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin: 0px 10px 0px 10px;
+}
+
+nav a:hover {
+    color: cadetblue;
+    transition: 1s;
+}
+
+
+/* Cards */
+
+.cartao {
+    align-items: center;
+    margin-left: 10%;
+}
+
+.cartao .cards {
+    top: 10px;
+    float: left;
+    width: 280px;
+    height: 200px;
+    border-radius: 15px;
+    background: #191919;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.cartao .link {
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+
+.cartao .button {
+    background-color: #2ecc71;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+    top: 25px;
+    position: relative;
+}
+
+.card .button:hover {
+    background-color: transparent;
+    border: 2px solid #2ecc71;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.texto{
+    color: #adfacd;
+    padding: auto;
+}
+
+
+/* Responsividade */
+
+@media screen and (max-width:1200px) {
+    body {
+        overflow: scroll;
+        height: 100%;
+
+    }
+
+    .background {
+        height: 180vh;
+    }
+
+
+    .link {
+        display: flex;
+        top: 50px;
+
+    }
+
+
+    .text {
+        color: #fff;
+        margin-left: -10%;
+    }
+
+
+    .link .card {
+        text-align: center;
+        color: #fff;
+        width: 360px;
+        margin-left: 6%;
+        height: 70px;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.712);
+        border-radius: 15px;
+        background: #ffffff13;
+    }
+
+
+    nav {
+        text-align: center;
+        margin-left: 98px;
+    }
+
+    nav a {
+        text-align: center;
+        color: #fff;
+        font-size: 10px;
+        left: -20%;
+    }
+
+    .cartao {
+        align-items: center;
+    }
+
+    .cartao .cards {
+        align-items: center;
+        margin-top: 8%;
+        margin-left: 8%;
+    }
+
+
+
+}

@@ -1,0 +1,150 @@
+/*  Início  */
+
+body {
+    background: #101010;
+    overflow: hidden;
+}
+
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 70%;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: #2ecc71;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: #2ecc71;
+    transition: .4s;
+}
+
+
+
+/*  Programas  */
+
+.service {
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2 {
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.pra p {
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card .button {
+    background-color: #2ecc71;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.card .button:hover {
+    background-color: transparent;
+    border: 2px solid #2ecc71;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+@media screen and (max-width: 800px) {
+
+    body {
+        width: auto;
+        overflow: scroll;
+    }
+
+    .title h2 {
+        color: white;
+        font-size: 45px;
+        text-align: left;
+        margin-left: 35px;
+        width: 0px;
+    }
+
+    .box {
+        display: inline-block;
+    }
+
+    nav {
+
+        margin-left: -2%;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    h2{
+        text-align: center;
+    }
+
+}
