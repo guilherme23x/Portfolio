@@ -286,6 +286,7 @@ h5 {
 .card .button:hover {
 	background-color: transparent;
 	border: 2px solid #2ecc71;
+	color: #fcfc;
 	cursor: pointer;
 }
 
