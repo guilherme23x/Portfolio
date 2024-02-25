@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+    background-color: #141414;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(59, 59, 59, 0.897);
+    border-radius: 20px;
+    border: 3px solid rgb(61, 61, 61);
+}
+
+body {
+    background: #101010;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100vh;
+}
+
+.cards {
+    position: relative;
+    top: 0%;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 32px;
+}
+
+@media screen and (max-width:1200px) {
+    body{
+        overflow-x: auto;
+        overflow-y:auto;
+    }
+    .cards {
+        display: block;
+        top: 5%;
+        width: 95%;
+    }
+}
+
+h3 {
+    color: rgb(175, 175, 175);
+}
+
+.card {
+    background: #191919;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 30px;
+    width: 80%;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.712);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card a {
+    padding: 4%;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border: 0px solid;
+    background-color: #2ecc71;
+    margin-top: 10%;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: 1s;
+}
+
+.card a:hover {
+    background-color: transparent;
+    border: 2px solid #08612d;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    top: 5%;
+    position: relative;
+    font-size: 40px;
+    color: rgba(180, 180, 180, 0.89);
+}
+
+i {
+    font-size: 400%;
+    color: rgba(164, 164, 255, 0.808);
+    margin-bottom: 5%;
+}
+
+.breve {
+    color: rgba(139, 139, 139, 0.397);
+}
