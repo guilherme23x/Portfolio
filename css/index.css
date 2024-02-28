@@ -414,11 +414,14 @@ footer p:nth-child(2) {
 		position: fixed;
 		margin-right: auto;
 	}
+	.skills{
+		height: 100%;
+	}
 
-
-	.skills {
+	.cont-habi {
 		align-items: center;
 		padding: 20px;
+		height: 100%;
 		justify-content: center;
 	}
 
@@ -439,7 +442,7 @@ footer p:nth-child(2) {
 	margin-right: auto;
 	margin-left: auto;
 	padding-top: 20px;
-	height: 80vh;
+	height: 100%;
 	justify-content: center;
 	padding: 20px;
 	color: rgb(165, 165, 165);
