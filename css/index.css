@@ -13,6 +13,10 @@ body::-webkit-scrollbar-thumb {
 	border: 3px solid rgb(61, 61, 61);
 }
 
+body {
+	background-color: #101010;
+}
+
 html {
 	scroll-behavior: smooth;
 }
@@ -247,7 +251,7 @@ h4 {
 	position: relative;
 	overflow: hidden;
 	text-align: center;
-	
+
 }
 
 .card i {
@@ -390,4 +394,208 @@ footer p:nth-child(2) {
 		margin-left: 20%;
 	}
 
+}
+
+
+
+@media screen and (max-width: 1350px) {
+	.cont-habi>ul {
+		display: block;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.skills .barras {
+		text-align: center;
+		background-color: #cccccc1c;
+		display: block;
+		height: 40px;
+		margin-left: auto;
+		position: fixed;
+		margin-right: auto;
+	}
+
+
+	.skills {
+		align-items: center;
+		padding: 20px;
+		justify-content: center;
+	}
+
+}
+
+.habilidades {
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.skills {
+	background-color: #191919;
+	width: 95%;
+	margin-top: 10%;
+	border-radius: 20px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	height: 80vh;
+	justify-content: center;
+	padding: 20px;
+	color: rgb(165, 165, 165);
+}
+
+.skills ul {
+	list-style: none;
+
+}
+
+.skills ul li {
+	margin: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.cont-habi>ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.skills .barras {
+	background-color: #cccccc1c;
+	display: block;
+	height: 20px;
+	width: 200px;
+	position: relative;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.barras>span {
+	height: 20px;
+	left: 0;
+	background-color: #2ecc71;
+	position: absolute;
+	border-radius: 5px;
+}
+
+.html {
+	width: 60%;
+	animation: html 3s;
+}
+
+@keyframes html {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 60%;
+	}
+}
+
+.css {
+	width: 58%;
+	animation: css 3s;
+}
+
+@keyframes css {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 58%;
+	}
+}
+
+.js {
+	width: 12%;
+	animation: js 3s;
+}
+
+@keyframes js {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 12%;
+	}
+}
+
+.php {
+	width: 25%;
+	animation: php 3s;
+}
+
+@keyframes php {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 25%;
+	}
+}
+
+.bi {
+	width: 72%;
+	animation: bi 3s;
+}
+
+@keyframes bi {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 72%;
+	}
+}
+
+.py {
+	width: 42%;
+	animation: py 3s;
+}
+
+@keyframes py {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 42%;
+	}
+}
+
+.c {
+	width: 33%;
+	animation: c 3s;
+}
+
+@keyframes c {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 33%;
+	}
+}
+
+.react {
+	width: 27%;
+	animation: react 3s;
+}
+
+@keyframes react {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 27%;
+	}
 }
