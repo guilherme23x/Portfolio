@@ -1,165 +1,198 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
-        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Portfólio</title>
-
 </head>
 
 <body>
 
-    <div>
+    <a href="#Topo" class="topo">
+        <div class="forma_voltar"></div>
+    </a>
 
-        <!----Início---->
-
-        <div class="hero">
+    <section id="Topo" class="wallpaper-apresentacao">
+        <header>
             <nav>
-                <ul>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#habilidades">habilidades</a></li>
-                    <li><a href="#social">Social</a></li>
-                </ul>
+                <a href="./index.html">
+                    <h1 class="nome">Guilherme Gomes</h1>
+                </a>
+                <div class="menu-toggle">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <div class="navpaginas">
+                    <a href="#Projetos">Projetos</a>
+                    <a href="#Sobre">Sobre</a>
+                    <a href="#Contatos">Contatos</a>
+                    <a href="#Expreriencias">Experiências</a>
+                    <a href="#Habilidades">Habilidades</a>
+                </div>
             </nav>
+        </header>
 
-            <div class="content">
-                <h4>Olá, meu nome é</h4>
-                <h1><span>Guilherme </span>Gomes da Silva</h1>
-                <h3>Sou um <span>desenvolvedor</span> Web.</h3>
+
+        <h1 class="titulo">Bem-Vindo ao Meu Portfólio</h1>
+        <h2 class="subtitulo">Conheça minha jornada, projetos e habilidades. Vamos colaborar para criar algo incrível.
+        </h2>
+        <div class="botoes-apresentacao">
+            <a class="botao-branco" href="#Projetos">Veja meu Trabalho</a>
+            <a class="botao-transparente" style="color: white;" href="#Contatos">Entrar em contato</a>
+        </div>
+    </section>
+
+    <section id="Projetos" class="projetos">
+        <h1 class="titulo_projetos">Projetos</h1>
+        <div class="cartoes">
+            <div class="card">
+                <h1>Aplicativos</h1>
+                <p>Projetos de design de Inspirações usando HTML/CSS e React Native.</p>
+                <img src="./img/index/aplicativos.jpg" alt="">
+                <a class="botao-projeto" href="./html/projeto_app.html">Visualizar</a>
+            </div>
+            <div class="card">
+                <h1>Desenvolvimento Web</h1>
+                <p>Criação de websites intuitivos, uasndo HTML/CSS.</p>
+                <img src="./img/index/web.jpg" alt="">
+                <a class="botao-projeto" href="./html/projeto_web.html">Visualizar</a>
+            </div>
+            <div class="card">
+                <h1>Programas Desktop</h1>
+                <p>Construção de programas com aprendizagem em C#.</p>
+                <img src="./img/index/desktop.jpg" alt="">
+                <a class="botao-projeto" href="./html/projeto_desktop.html">Visualizar</a>
             </div>
         </div>
-
-        <!----Sobre---->
-
-        <section class="about" id="sobre">
-            <div class="main">
-                <img src="./img/lambor.jpg">
-                <div class="about-text">
-                    <h2 style="font-size: 50px;">Sobre</h2>
-                    <h5>Dev Júnior <span>& Designer</span></h5>
-                    <p>Um desenvolvedor iniciante em escrever códigos em diferentes estilos, modificando interfaces sem
-                        aprofundar no "back-end". Foco em interfaces elegantes e com fácil acessibilidade. Escrevo
-                        códigos em html/css; React Native; Python; Interfaces em C#.</p>
-                    <p>Também desenho a mão qualquer coisa que me identifico ou tenho vontade, tanto veículos quanto
-                        desenhos animados/animes. Não faço pintura, mas, coloque efeitos de sombra de luz junto a
-                        degradê.</p>
-                    <p>Estou desfrutando do poder do Power BI, usado em empresas e na qual eu trabalho atualmente.
-                        Designs bonitos e com fácil acessibilidade aos usuários com modelos mais Dark.</p>
-                </div>
-            </div>
-        </section>
+    </section>
 
 
-        <!-----Projetos----------->
 
-        <div class="service" id="projetos">
-            <div class="title">
-                <h2 style="font-size: 50px;">Projetos</h2>
+    <section id="Sobre" class="sobre">
+        <h1 class="titulo_sobre">Sobre Mim</h1>
+        <div class="cartoes_sobre">
+            <div class="card_sobre">
+                <h2>Criativo</h2>
+                <p>Constantemente buscando novas abordagens para inovar.</p>
             </div>
 
-            <div class="box">
-                <div class="card">
-                    <i class="fas fa-poll"></i>
-                    <h5>WebSites</h5>
-                    <div class="pra">
-                        <p style="text-align: center;">
-                            <a class="button" href="./website.html">Conhecer</a>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <i class="fab fa-android"></i>
-                    <h5>Aplicativos</h5>
-                    <div class="pra">
-                        <p style="text-align: center;">
-                            <a class="button" href="./aplicativos.html">Conhecer</a>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <i class="fas fa-laptop"></i>
-                    <h5>Desktop</h5>
-                    <div class="pra">
-                        <p  style="text-align: center;">
-                            <a class="button" href="./desktop.html">Conhecer</a>
-                        </p>
-                    </div>
-                </div>
-
+            <div class="card_sobre">
+                <h2>Colaboração</h2>
+                <p>Focado em colaboração e construir relacionamentos sólidos.</p>
             </div>
-        </div >
+            <div class="card_sobre">
+                <h2>Paixão pelo Detalhe</h2>
+                <p>Atenção aos detalhes para criar experiências excepcionais.</p>
+            </div>
+            <div class="card_sobre">
+                <h2>Apaixonado por Design</h2>
+                <p>O design é mais do que um trabalho, é uma paixão que se reflete em tudo o que crio.</p>
+            </div>
 
-        <!------Habilidades--------->
+        </div>
+    </section>
 
-        <div class="skills" id="habilidades" >
-            <h1 class="habilidades">Habilidades</h1>
-            <div class="cont-habi">
-                <ul>
-                    <li>
-                        <h3>Html</h3>
-                        <span class="barras"><span class="html"></span></span>
-                    </li>
-                    <li>
-                        <h3>Css</h3>
-                        <span class="barras"><span class="css"></span></span>
-                    </li>
-                    <li>
-                        <h3>Java Script</h3>
-                        <span class="barras"><span class="js"></span></span>
-                    </li>
-                    <li>
-                        <h3>PHP</h3>
-                        <span class="barras"><span class="php"></span></span>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <h3>Power BI</h3>
-                        <span class="barras"><span class="bi"></span></span>
-                    </li>
-                    <li>
-                        <h3>Python</h3>
-                        <span class="barras"><span class="py"></span></span>
-                    </li>
-                    <li>
-                        <h3>C#</h3>
-                        <span class="barras"><span class="c"></span></span>
-                    </li>
-                    <li>
-                        <h3>React Native</h3>
-                        <span class="barras"><span class="react"></span></span>
-                    </li>
+    <section id="Contatos" class="contatos">
+        <div class="contatos_container">
+            <h1 class="titulo_contatos">Contatos</h1>
+
+            <div>
+                <p class="frase">Estou ansioso para colaborar com você. Entre em contato para discutir projetos
+                    emocionantes e
+                    oportunidades criativas.</p>
+
+                <p class="infocontato">Informações de Contato:</p>
+
+                <ul class="lista_contato">
+                    <li>Email: <a href="https://mail.google.com/mail/u/0/?ogbl#inbox">guigomes4330@gmail.com</a> </li>
+                    <li>Github: <a href="https://github.com/guilherme23x">Guilherme23x</a> </li>
+                    <li>Linkedin: <a href="https://www.linkedin.com/in/guilherme-gomes-da-silva-87ab932a5/">Guilherme
+                            Gomes da Silva</a> </li>
                 </ul>
             </div>
         </div>
+    </section>
 
-        <!------Social--------->
-        <footer>
-            <div class="title">
-                <h1 style="font-size: 50px;">Social</h1>
+    <section id="Expreriencias" class="experiencias">
+        <div class="container_exp">
+            <img src="./img/index/exp.png" alt="">
+            <div class="triangulos">
+
+                <div id="triangulo-para-baixo"></div>
+                <div id="triangulo-para-baixo"></div>
+                <div id="triangulo-para-baixo"></div>
             </div>
-            <div class="social" id="social">
-                <a href="https://discord.gg/H3T9TwhR"><i class="fab fa-discord"></i></a>
-                <a href="https://github.com/guilherme23x"><i class="fab fa-github"></i></a>
-                <a
-                    href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BAoSNgQSAQ%2FCrL0dORffOTA%3D%3D"><i
-                        class="fab fa-linkedin"></i></a>
+            <div>
+                <h1 class="titulo_exp">Experiência</h1>
+                <div class="cont_exp">
+                    <h1>Design</h1>
+                    <p>Experiência extensiva em criação de interfaces cativantes e<br> experiências de usuário
+                        excepcionais.
+                    </p>
+                </div>
+                <div class="cont_exp">
+                    <h1>Desenvolvimento</h1>
+                    <p>Trabalho em solo para transformar conceitos em produtos digitais funcionais<br> e com motivação
+                        para atender a todo tipo de público.
+                    </p>
+                </div>
+                <div class="cont_exp">
+                    <h1>Estratégia</h1>
+                    <p>Análise estratégica e soluções criativas para desafios de<br> design e experiência do usuário.
+                    </p>
+                </div>
             </div>
+        </div>
+    </section>
+
+    <section id="Habilidades" class="habilidades">
+        <h1 class="titulo_hab">Habilidades</h1>
+        <div class="cartoes_hab">
+            <div class="card_hab">
+                <h2>Criativo</h2>
+                <p>Constantemente buscando novas abordagens para inovar.</p>
+            </div>
+            <div class="card_hab">
+                <h2>Colaboração</h2>
+                <p>Focado em colaboração e construir relacionamentos sólidos.</p>
+            </div>
+            <div class="card_hab">
+                <h2>Paixão pelo Detalhe</h2>
+                <p>Atenção aos detalhes para criar experiências excepcionais.</p>
+            </div>
+            <div class="card_hab">
+                <h2>Apaixonado por Design</h2>
+                <p>O design é mais do que um trabalho, é uma paixão que se reflete em tudo o que crio.</p>
+            </div>
+        </div>
+    </section>
 
 
+    <footer id="Topo" class="rodape">
+        <header>
+            <nav>
+                <a href="">
+                    <h1 class="nome">Guilherme Gomes</h1>
+                </a>
+                <div class="rodape-paginas">
+                    <a href="https://www.linkedin.com/in/guilherme-gomes-da-silva-87ab932a5/">Linkedin</a>
+                    <a href="https://mail.google.com/mail/u/0/?ogbl#inbox">Email</a>
+                    <a href="https://github.com/guilherme23x">Github</a>
+                </div>
+            </nav>
+        </header>
+    </footer>
 
-        </footer>
-
-    </div>
+    <script src="./js/script.js"></script>
+    <script src="../js/menu.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+body {
+    background-color: #F2F2F3;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #3b3b3b;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #3D3D42;
+    border-radius: 20px;
+    border: 1px solid #E5E0DF;
+    transition: 1s;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #919191;
+}
+
+body {
+    background-color: #E5E0DF;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    transition: 1s;
+}
+
+/* Apresentação */
+
+.wallpaper-apresentacao {
+    background-image: url(../img/index/wallpaper.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 12vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+}
+
+nav a,
+h1 {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    transition: 1s;
+}
+
+.nome {
+    display: block;
+}
+
+
+.nome:hover {
+    color: #b4adab;
+    transform: translateX(5px);
+}
+
+
+.nav h1:hover {
+    color: #b4adab;
+    transform: translateX(5px);
+}
+
+.navpaginas a {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.8s;
+    flex-direction: row;
+    display: inline-block;
+}
+
+.navpaginas a:hover {
+    color: #b4adab;
+    transform: translateY(-5px);
+}
+
+
+
+/* Projetos */
+
+.projetos {
+    height: 150vh;
+}
+
+.titulo_projetos {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 5%;
+    color: black;
+    font-weight: 280;
+}
+
+.cartoes {
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+
+.card {
+    padding: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card h1 {
+    font-size: 30px;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    width: 400px;
+}
+
+.card p {
+    font-size: 18px;
+    font-weight: 250;
+    width: 300px;
+    font-weight: 300;
+    padding: 20px;
+    text-align: left;
+}
+
+.card img {
+    width: 20vw;
+    height: 40vh;
+    border-radius: 20px;
+    filter: brightness(75%);
+    object-fit: cover;
+
+}
+
+.botao-projeto {
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 3%;
+    font-weight: 200;
+    padding: 15px;
+    width: 150px;
+    font-weight: 300;
+    border-radius: 15px;
+    border-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    transition: 1s;
+    color: black;
+    margin-top: 10%;
+
+}
+
+.botao-projeto:hover {
+    transform: translateY(-5px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.rodape {
+    width: 100%;
+    background-color: black;
+    height: 15vh;
+    bottom: 0;
+    position: relative;
+}
+
+
+/* Menu Mobile  */
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+    transition: 0.8s;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .navpaginas {
+        display: none;
+    }
+
+    .wallpaper-apresentacao {
+        height: 30vh;
+    }
+
+    .titulo_projetos {
+        font-size: 35px;
+        padding: 30px;
+    }
+
+    .nome {
+        padding: 40px;
+    }
+
+    .menu-toggle {
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+        transition: 1s;
+    }
+
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 3px 0;
+        transition: 0.8s;
+    }
+
+
+    .navpaginas a {
+        margin-top: 15px;
+    }
+
+    .navpaginas a {
+        font-size: 18px;
+    }
+
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    .show-menu .navpaginas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    /* Apresentacao */
+
+    section {
+        height: 100vh;
+        margin-top: 15px;
+    }
+
+    .nome {
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .titulo {
+        font-size: 25px;
+        padding: 40px;
+    }
+
+    .subtitulo {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    /* Prpjetos */
+
+    .projetos {
+        background-color: #E5E0DF;
+    }
+
+    .cartoes {
+        display: block;
+        height: 200vh;
+    }
+
+    .card img {
+        width: 120%;
+    }
+
+
+
+
+    .sobre {
+        margin-top: 140vh;
+        padding-bottom: 37vh;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50px;
+    }
+
+    .cartoes_sobre {
+        display: block;
+        padding: 50px;
+
+    }
+
+    .card_sobre h1,
+    p {
+        font-size: 15px;
+    }
+
+
+    .contatos {
+        height: 120vh;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+        margin-bottom: -20vh;
+    }
+
+    .experiencias {
+        width: 100%;
+        height: 110vh;
+    }
+
+    .experiencias img,
+    .triangulos {
+        display: none;
+    }
+
+    .habilidades {
+        height: 100vh;
+    }
+
+    .cartoes_hab {
+        display: block;
+    }
+
+    .nav-paginas {
+        display: block;
+    }
+}
