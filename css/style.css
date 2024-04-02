@@ -29,6 +29,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 html {
     scroll-behavior: smooth;
+
 }
 
 section {
@@ -151,7 +152,27 @@ h1 {
 /* Projetos */
 
 .projetos {
-    background-color: #F2F2F3;
+    background-color: #E5E0DF;
+    padding-top: 5vh;
+    height: 0%;
+    transform: translateY(50px);
+    transition: opacity 3s ease, transform 3s ease;
+
+}
+
+#Projetos {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 3s ease, transform 3s ease;
+}
+
+#Projetos.mostrar {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.ocultar {
+    opacity: 0;
 }
 
 .titulo_projetos {
@@ -550,6 +571,7 @@ a {
 
     .projetos {
         background-color: #E5E0DF;
+        height: 0%;
     }
 
     .cartoes {
@@ -563,10 +585,10 @@ a {
 
 
     .sobre {
-        margin-top: 150vh;
-        padding-bottom: 37vh;
+        margin-top: 50%;
         width: 100%;
-
+        height: 70vh;
+        padding-top: 10%;
         margin-left: auto;
         margin-right: auto;
         border-radius: 0px;
@@ -585,14 +607,30 @@ a {
 
 
     .contatos {
-        height: 120vh;
+        height: 0%;
+        margin-bottom: 15px;
         width: 100%;
-        border-radius: 0%;
+
+    }
+
+    .contatos_container {
+        border-radius: 0px;
+        background-color: #E5E0DF;
+
+    }
+
+    .frase,
+    .infocontato,
+    .titulo_contatos,
+    .lista_contato li,
+    a {
+        color: black;
+        font-weight: 300;
     }
 
     .experiencias {
         width: 100%;
-        height: 110vh;
+        height: 100vh;
     }
 
     .experiencias img,
