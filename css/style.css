@@ -271,12 +271,12 @@ h1 {
 }
 
 .card_desenhos img {
-    width:20vw;
+    width: 20vw;
     height: 40vh;
     border-radius: 20px;
     filter: brightness(40%);
     object-fit: cover;
-    
+
 }
 
 
@@ -520,6 +520,11 @@ a {
     border-top: 0px solid;
 }
 
+.topo:hover {
+    color: #b4adab;
+    transform: translateY(-5px);
+}
+
 .topo {
     background-color: #3D3D42;
     position: fixed;
@@ -530,12 +535,21 @@ a {
     bottom: 0;
     margin-bottom: 2%;
     text-decoration: none;
+    transition: 1s;
     visibility: hidden;
+    transform: translateX(20vh);
 }
 
 .topo.visible {
     visibility: visible;
+    z-index: 1;
+    box-shadow: #7c7c7c 0px 5px 5px 0px;
+    transition: 1s;
+    transform: translateX(0%);
+
 }
+
+/* Rodapé */
 
 .rodape {
     width: 100%;
