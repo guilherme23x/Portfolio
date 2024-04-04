@@ -22,3 +22,11 @@ window.addEventListener('scroll', function () {
         content.classList.add('ocultar');
     }
 });
+
+// Selecione todas as imagens com a classe 'imagem' e adicione o evento de clique a cada uma
+document.querySelectorAll(".imagem").forEach(function (imagem) {
+    imagem.addEventListener("click", function () {
+        this.classList.toggle("imagem-fullscreen");
+    });
+});
+

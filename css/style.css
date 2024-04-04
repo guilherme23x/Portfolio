@@ -227,7 +227,6 @@ h1 {
 .botao-projeto {
     font-size: 20px;
     text-decoration: none;
-    margin-top: 3%;
     font-weight: 200;
     padding: 15px;
     width: 150px;
@@ -236,7 +235,6 @@ h1 {
     border: 1px solid rgba(0, 0, 0, 0.336);
     transition: 1s;
     color: black;
-    margin-top: 10%;
 
 }
 
@@ -244,6 +242,65 @@ h1 {
     transform: translateY(-5px);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+
+
+
+.card_desenhos {
+    padding: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+.card_desenhos h1 {
+    font-size: 30px;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+}
+
+.card_desenhos p {
+    font-size: 18px;
+    font-weight: 250;
+    width: 300px;
+    padding: 20px;
+    text-align: left;
+}
+
+.card_desenhos img {
+    width:20vw;
+    height: 40vh;
+    border-radius: 20px;
+    filter: brightness(40%);
+    object-fit: cover;
+    
+}
+
+
+
+.botao_desenhos {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 200;
+    padding: 15px;
+    width: 150px;
+    border-radius: 15px;
+    border-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    transition: 1s;
+    color: black;
+
+}
+
+.botao_desenhos:hover {
+    transform: translateY(-5px);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
 
 /* Sobre Mim */
 
@@ -649,4 +706,60 @@ a {
     .nav-paginas {
         display: block;
     }
+
+
+
+    .card_desenhos {
+        padding: 30px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        top: 20vh;
+        position: relative;
+    }
+
+    .card_desenhos h1 {
+        font-size: 30px;
+        font-weight: 300;
+        color: black;
+        text-align: center;
+    }
+
+    .card_desenhos p {
+        font-size: 18px;
+        font-weight: 250;
+        width: 300px;
+        padding: 20px;
+        text-align: left;
+    }
+
+    .card_desenhos img {
+        width: 89%;
+        height: 40vh;
+        border-radius: 20px;
+        filter: brightness(40%);
+        object-fit: cover;
+
+    }
+
+    .botao_desenhos {
+        font-size: 20px;
+        text-decoration: none;
+        font-weight: 200;
+        padding: 15px;
+        width: 150px;
+        border-radius: 15px;
+        border-color: white;
+        border: 1px solid rgba(0, 0, 0, 0.336);
+        transition: 1s;
+        color: black;
+
+    }
+
+    .botao_desenhos:hover {
+        transform: translateY(-5px);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
 }

@@ -150,13 +150,28 @@ h1 {
     text-align: left;
 }
 
-.card img {
+.imagem {
     width: 20vw;
     height: 40vh;
     border-radius: 20px;
     filter: brightness(75%);
     object-fit: cover;
+    cursor: pointer;
+}
 
+.imagem-fullscreen {
+    position: fixed;
+    top: 0;
+    cursor: pointer;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: scale-down;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.637);
+    backdrop-filter: blur(5px);
+    margin: 0;
+    padding: 0;
 }
 
 .botao-projeto {
