@@ -1,3 +1,7 @@
-document.querySelector('.menu-toggle').addEventListener('click', function () {
-    document.querySelector('nav').classList.toggle('show-menu');
+const menuLateral = document.querySelector(".menu-lateral");
+const botaoMenu = document.querySelector(".botao-menu");
+
+botaoMenu.addEventListener("click", () => {
+  menuLateral.classList.toggle("ativo");
+  botaoMenu.classList.toggle("ativo");
 });
