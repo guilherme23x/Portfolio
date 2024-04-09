@@ -510,7 +510,7 @@ header ul li:hover {
   top: 0;
   left: -200px;
   width: 200px;
-  height: 50%;
+  height: 100%;
   border-radius: 0px 20px 20px 0px;
   background-color: #00000096;
   backdrop-filter: blur(15px);
