@@ -472,6 +472,7 @@ header ul li:hover {
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-top: 0px solid;
+ 
 }
 
 .topo:hover {
@@ -482,6 +483,7 @@ header ul li:hover {
 .topo {
   background-color: #3d3d42;
   position: fixed;
+  z-index: 3;
   right: 0;
   color: #919191;
   margin-right: 2%;
@@ -501,6 +503,7 @@ header ul li:hover {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   transition: 1s;
   transform: translateX(0%);
+  z-index: 10;
 }
 
 /* Menu Mobile  */
@@ -532,6 +535,7 @@ li {
 }
 
 .botao-menu {
+  z-index: 50;
   position: fixed;
   top: 10px;
   right: 10px;
