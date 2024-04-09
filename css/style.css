@@ -38,6 +38,7 @@ html {
 
 body {
   width: 100vw;
+  overflow-x: hidden;
 }
 
 .container {
@@ -395,6 +396,7 @@ header ul li:hover {
   padding-top: 2%;
   align-items: center;
   justify-content: center;
+  height: 100%;
 }
 
 .titulo_habilidades {
@@ -439,6 +441,7 @@ header ul li:hover {
 
 .rodape {
   height: 20vh;
+  padding: 120px;
   justify-content: space-around;
   align-items: center;
   color: white;
@@ -599,7 +602,7 @@ li {
   }
 
   .sobre {
-    height: 90vh;
+    height: 100vh;
     background-color: #000;
     padding-top: 2%;
   }
