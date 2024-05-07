@@ -288,7 +288,7 @@ header ul li:hover {
   margin-bottom: 20px;
 }
 
-.card_sobre h1 {
+.card_sobre h2 {
   text-align: left;
   color: #e5e0df;
   font-size: 25px;
@@ -314,7 +314,7 @@ header ul li:hover {
   border-radius: 50px;
 }
 
-.container_contatos h1 {
+.container_contatos h2 {
   text-align: left;
   color: #e5e0df;
   font-size: 35px;
@@ -381,7 +381,7 @@ header ul li:hover {
   margin-bottom: 20px;
 }
 
-.card_experiencias h1 {
+.card_experiencias h2 {
   text-align: left;
   color: #e5e0df;
   font-size: 25px;
@@ -429,7 +429,7 @@ header ul li:hover {
   background-color: #3d3d42;
 }
 
-.card_habilidades h1 {
+.card_habilidades h2 {
   text-align: left;
   color: #e5e0df;
   font-size: 25px;
@@ -633,7 +633,7 @@ li {
     margin-bottom: 20px;
   }
 
-  .card_sobre h1 {
+  .card_sobre h2 {
     text-align: left;
     color: #e5e0df;
     font-size: 25px;
@@ -656,7 +656,7 @@ li {
     border-radius: 50px;
   }
 
-  .container_contatos h1 {
+  .container_contatos h2 {
     text-align: left;
     color: #000000;
     font-size: 35px;
