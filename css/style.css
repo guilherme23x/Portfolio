@@ -270,19 +270,30 @@ header ul li:hover {
   font-weight: 200;
 }
 
+.dividir_img_cards {
+  display: flex;
+  width: 95%;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.dividir_img_cards img {
+  height: 45vh;
+  display: block;
+  border-radius: 100%;
+}
+
 .cards_sobre {
   display: grid;
-  grid-template-columns: 200px 200px;
+  grid-template-columns: 30% 30%;
   justify-content: space-around;
   align-items: center;
   margin-top: 2%;
-  margin-right: 15%;
 }
 
 .card_sobre {
   color: #fff;
   margin-top: 15px;
-  width: 250%;
   font-size: 18px;
   font-weight: 200;
   margin-bottom: 20px;
@@ -603,11 +614,13 @@ li {
   }
 
   .sobre {
-    height: 100vh;
+    height: 130vh;
     background-color: #000;
     padding-top: 2%;
   }
-
+  .dividir_img_cards{
+    display: block;
+  }
   .titulo_sobre {
     text-align: center;
     font-size: 35px;
