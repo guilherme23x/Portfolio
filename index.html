@@ -1,249 +1,218 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <title>Portfólio</title>
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="shortcut icon" href="./img/Logo.png" type="image/x-icon">
+  <title>Gui23x</title>
+</head>
 
-  <body id="Inicio"> 
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <nav>
+      <a href="" class="nome_header">Guilherme Gomes</a>
+      <ul>
+        <li><a href="#Sobre">Sobre</a></li>
+        <li><a href="#Projetos">Projetos</a></li>
+        <li><a href="#Habilidades">Habilidades</a></li>
+        <li><a href="#Contatos">Contatos</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <a href="#Inicio" class="topo">
-      <div class="forma_voltar"></div>
-    </a>
-    <header id="header">
-      <div class="container">
-        <div class="flex">
-          <div class="btn-nome">
-            <a href="" class="nome">Guilherme Gomes</a>
-          </div>
-          <nav>
-            <ul>
-              <li><a href="#Projetos">Projetos</a></li>
-              <li><a href="#Sobre">Sobre</a></li>
-              <li><a href="#Contatos">Contatos</a></li>
-              <li><a href="#Expreriencias">Experiências</a></li>
-              <li><a href="#Habilidades">Habilidades</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
-
+  <!-- Menu Hamburguer -->
+  <div>
     <div class="menu-lateral">
       <ul>
         <li><a href="#Inicio">Guilherme</a></li>
-        <li><a href="#Projetos">Projetos</a></li>
         <li><a href="#Sobre">Sobre</a></li>
-        <li><a href="#Contatos">Contatos</a></li>
-        <li><a href="#Expreriencias">Experiências</a></li>
+        <li><a href="#Projetos">Projetos</a></li>
         <li><a href="#Habilidades">Habilidades</a></li>
+        <li><a href="#Contatos">Contatos</a></li>
       </ul>
     </div>
 
     <button class="botao-menu">
-      <img src="./img/menu/menu.png" alt="" />
+      <img src="./img/menu.png" alt="" />
     </button>
+  </div>
 
-    <section class="banner">
-      <div>
-        <h1 class="bemvindo">Bem-Vindo ao Meu Portfólio</h1>
-        <h2 class="subtitulo">
-          Conheça minha jornada, projetos e habilidades. Vamos colaborar para
-          criar algo incrível.
-        </h2>
-        <div class="botoes">
-          <a href="#Projetos" class="branco">Veja meu Trabalho</a>
-          <a href="#Contatos" class="transparente">Entrar em Contato</a>
+ 
+  
+
+  <main>
+    <!-- Home -->
+    <section class="home" id="Inicio">
+      <h1>Bem-Vindo ao meu Portfólio</h1>
+      <h2>
+        Conheça minha jornada, projetos e habilidades. Vamos colaborar para
+        criar algo incrível.
+      </h2>
+
+      <div class="botoes_home">
+        <a href="#Projetos">Veja meu Trabalho</a>
+        <a href="#Contatos">Entre em Contato</a>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="sobre" id="Sobre">
+      <div class=" animacao_scroll">
+        <h2>Sobre</h2>
+
+        <div class="duas_areas">
+          <div class="cartoes_sobre">
+            <div>
+              <h3>Criativo</h3>
+              <p>Constantemente buscando novas abordagens para inovar.</p>
+            </div>
+
+            <div>
+              <h3>Colaboração</h3>
+              <p>Focado em colaboração e construir relacionamentos sólidos.</p>
+            </div>
+          </div>
+            <img src="./img/Perfil.jpg" alt="" />
+            <div class="cartoes_sobre">
+            <div>
+              <h3>Paixão pelo Detalhe</h3>
+              <p>Atenção aos detalhes para criar experiências excepcionais.</p>
+            </div>
+
+            <div>
+              <h3>Apaixonado por Design</h3>
+              <p>
+                O design é mais do que um trabalho, é uma paixão que se reflete
+                em tudo o que crio.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="Projetos" class="projetos">
-      <h2 class="titulo_projetos">Projetos</h2>
-      <div class="cards_projetos">
-        <div class="card">
-          <h2 class="titulo_card">Aplicativos</h2>
-          <p class="texto_projetos">
-            Projetos de design de Inspirações usando HTML/CSS e React Native.
-          </p>
-          <img class="img_projetos" src="./img/index/aplicativos.jpg" alt="" />
-          <a class="botao_projetos" href="./html/projeto_app.html">Visualizar</a>
-        </div>
+    <!-- Projetos -->
 
-        <div class="card">
-          <h2 class="titulo_card">Desenvolvimento Web</h2>
-          <p class="texto_projetos">
-            Criação de websites intuitivos,<br> uasndo HTML/CSS.
-          </p>
-          <img class="img_projetos" src="./img/index/web.jpg" alt="" />
-          <a class="botao_projetos" href="./html/projeto_web.html">Visualizar</a>
-        </div>
+    <section class="projetos" id="Projetos">
 
-        <div class="card">
-          <h2 class="titulo_card">Programas Desktop</h2>
-          <p class="texto_projetos">
-            Construção de programas com aprendizagem em C#.
-          </p>
-          <img class="img_projetos" src="./img/index/desktop.jpg" alt="" />
-          <a class="botao_projetos" href="./html/projeto_desktop.html">Visualizar</a>
-        </div>
+      <div class=" animacao_scroll">
+        <h2>Projetos</h2>
+        <div class="cartoes_projetos">
+          <div class="card_projetos">
+            <h3>Aplicaivos</h3>
+            <p>
+              Projetos de design de Inspirações usando HTML/CSS e React Native.
+            </p>
+            <img src="./img/aplicativos.jpg" alt="" />
+            <a href="./pages/projeto_app.html">Visualizar</a>
+          </div>
 
-        <div class="card">
-          <h2 class="titulo_card">Desenhos a Mão</h2>
-          <p class="texto_projetos">
-            Um hobby que gosto de fazer quando fico livre de tudo.
-          </p>
-          <img class="img_projetos" src="./img/desenhos/1.jpg" alt="" />
-          <a class="botao_projetos" href="./html/desenhos.html">Visualizar</a>
+          <div class="card_projetos">
+            <h3>Web Pages</h3>
+            <p>Criação de websites intuitivos, uasndo HTML/CSS.</p>
+            <img src="./img/web.jpg" alt="" />
+            <a href="./pages/projeto_web.html">Visualizar</a>
+          </div>
+
+          <div class="card_projetos">
+            <h3>Programas Desktop</h3>
+            <p>Construção de programas com aprendizagem em C#.</p>
+            <img src="./img/desktop.jpg" alt="" />
+            <a href="./pages/projeto_desktop.html">Visualizar</a>
+          </div>
+
+          <div class="card_projetos">
+            <h3>Desenhos a Mão</h3>
+            <p>Um hobby que gosto de fazer quando fico livre de tudo.</p>
+            <img src="./img/desenhos.jpg" alt="" />
+            <a href="./pages/desenhos.html">Visualizar</a>
+          </div>
         </div>
       </div>
-      
     </section>
 
-    <section id="Sobre" class="sobre">
-      <h2 class="titulo_sobre">Sobre mim</h2>
-<div class="dividir_img_cards">
-      <div class="cards_sobre">
-        <div class="card_sobre">
-          <h2 class="sobre_card_titulo">Criativo</h2>
-          <p class="texto_sobre">
-            Constantemente buscando novas abordagens para inovar.
-          </p>
-        </div>
-        <div class="card_sobre">
-          <h2 class="sobre_card_titulo">Paixão pelo Detalhe</h2>
-          <p class="texto_sobre">
-            Atenção aos detalhes para criar experiências excepcionais.
-          </p>
-        </div>
-        <div class="card_sobre">
-          <h2 class="sobre_card_titulo">Colaboração</h2>
-          <p class="texto_sobre">
-            Focado em colaboração e construir relacionamentos sólidos.
-          </p>
-        </div>
-        <div class="card_sobre">
-          <h2 class="sobre_card_titulo">Apaixonado por Design</h2>
-          <p class="texto_sobre">
-            O design é mais do que um trabalho, é uma paixão que se reflete em
-            tudo o que crio.
-          </p>
+    <!-- Habilidades -->
+    <section class="habilidades" id="Habilidades">
+      <div class=" animacao_scroll">
+        <h2>Habilidades</h2>
+        <div class="cartoes_habilidades">
+          <div class="card_habilidades">
+            <h3>React Native - Front End</h3>
+            <p>
+              Interface no qual facilitam ao usuário, a melhor experiência de
+              uso.
+            </p>
+          </div>
+          <div class="card_habilidades">
+            <h3>Html/CSS</h3>
+            <p>
+              Desenvolvimento de sites estáticos no qual foco em front-end,
+              visando a otimização da pagína para o público com baixa conexão.
+            </p>
+          </div>
+          <div class="card_habilidades">
+            <h3>Python</h3>
+            <p>
+              Automações em python para facilitar e acelerar o trabalho e em
+              conjuto com a Inteligência Artificial para suporte.
+            </p>
+          </div>
+          <div class="card_habilidades">
+            <h3>JavaScript - Cursando</h3>
+            <p>
+              Criar interações entre páginas ou funções primordiais para as
+              páginas, como menus e animações de transições.
+            </p>
+          </div>
+          <div class="card_habilidades">
+            <h3>Power BI</h3>
+            <p>
+              Conhecimento no próprio para o desenvolvimento de Dashboards para
+              empresas, mostrando resultados no qual, pode determinar o futuro
+              da empresa/área.
+            </p>
+          </div>
+          <div class="card_habilidades">
+            <h3>Técnico de Informática</h3>
+            <p>
+              Manutenção de componentes e troca de peças de computadores,
+              incluíndo formatação de sistema operacional configurado.
+            </p>
+          </div>
         </div>
       </div>
-    
-      <img src="./img/index/Perfil.jpg" alt="">
-    </div>
     </section>
 
-    <section id="Contatos" class="contatos">
-      <div class="container_contatos">
+    <!-- Contatos -->
+    <section class="contatos" id="Contatos">
+      <div class="cartao_contatos animacao_scroll">
         <h2>Contatos</h2>
         <p>
           Estou ansioso para colaborar com você. Entre em contato para discutir
           projetos emocionantes e oportunidades criativas.
         </p>
-        <h2 class="subtitulo_contatos">Informações de Contato:</h2>
+        <h3>Informações de Contato:</h3>
         <ul>
-          <li>E-mail:<a target="_blank" class="link_contatos" href="https://mail.google.com/mail/u/0/?ogbl#inbox">guigomes4330@gmail.com</a></li>
-          <li>Github:<a target="_blank" class="link_contatos" href="https://github.com/guilherme23x">Guilherme23x</a></li>
-          <li>Linkedin:<a target="_blank" class="link_contatos" href="https://www.linkedin.com/in/guilherme-gomes-da-silva-87ab932a5/">Guilherme Gomes da Silva</a></li>
+          <li>E-mail: <a target="_blank" href="https://mail.google.com/mail/u/0/?ogbl#inbox">guigomes4330@gmail.com</a>
+          </li>
+          <li>Github: <a target="_blank" href="https://github.com/guilherme23x">Guilherme23x</a></li>
+          <li>Linkedin: <a target="_blank"
+              href="https://www.linkedin.com/in/guilherme-gomes-da-silva-87ab932a5/">Guilherme Gomes da Silva</a></li>
         </ul>
-      </div>
+
     </section>
+    </div>
+  </main>
 
-    <section id="Expreriencias" class="experiencias">
-      <div>
-        <img src="./img/index/exp.png" alt="" />
-      </div>
-      <div>
-        <h2 class="titulo_experiencias">Experiências</h2>
-        <div class="cards_experiencias">
-          <div class="card_experiencias">
-            <h2 class="experiencias_card_titulo">Design</h2>
-            <p class="texto_experiencias">
-              Constantemente buscando novas abordagens para inovar.
-            </p>
-          </div>
-          <div class="card_experiencias">
-            <h2 class="experiencias_card_titulo">Desenvolvimento</h2>
-            <p class="texto_experiencias">
-              Atenção aos detalhes para criar experiências excepcionais.
-            </p>
-          </div>
-          <div class="card_experiencias">
-            <h2 class="experiencias_card_titulo">Estratégia</h2>
-            <p class="texto_sobre">
-              Focado em colaboração e construir relacionamentos sólidos.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+  <a href="#Inicio" class="topo">
+    <div class="forma_voltar"></div>
+  </a>
 
-    <section id="Habilidades" class="habilidades">
-      <h2 class="titulo_habilidades">Habilidades</h2>
-      <div class="cards_habilidades">
-        <div class="card_habilidades">
-          <h2 class="habilidades_card_titulo">Front End - React Native</h2>
-          <p class="texto_habilidades">
-           Interface no qual facilitam ao usuário, a melhor experiência de uso.
-          </p>
-        </div>
-        <div class="card_habilidades">
-          <h2 class="habilidades_card_titulo">HTML/CSS</h2>
-          <p class="texto_habilidades">
-           Desenvolvimento de sites estáticos no qual foco em front-end, visando a otimização da pagína para o público com baixa conexão.
-          </p>
-        </div>
-        <div class="card_habilidades">
-          <h2 class="habilidades_card_titulo">Python com I.A.</h2>
-          <p class="texto_habilidades">
-            Automações em python para facilitar e acelerar o trabalho e em conjuto com a Inteligência Artificial para suporte.
-          </p>
-        </div>
-        <div class="card_habilidades">
-          <h2 class="habilidades_card_titulo">Javascript - Cursando</h2>
-          <p class="texto_habilidades">
-           Criar interações entre páginas ou funções primordiais para as páginas, como menus e animações de transições.
-          </p>
-        </div>
-        <div class="card_habilidades">
-          <h2 class="habilidades_card_titulo">Power BI</h2>
-          <p class="texto_habilidades">
-           Conhecimento no próprio para o desenvolvimento de Dashboards para empresas, mostrando resultados no qual, pode determinar o futuro da empresa/área.
-          </p>
-        </div>
-      </div>
-    </section>
+  <script src="./js/script.js"></script>
+</body>
 
-      <footer class="rodape">
-        <div class="container">
-          <div class="flex">
-            <div class="btn-nome">
-              <a href=""><a>Guilherme Gomes</a></a>
-            </div>
-            <nav>
-              <ul>
-                <li><a href="https://www.linkedin.com/in/guilherme-gomes-da-silva-87ab932a5/">Linkedin</a></li>
-                <li><a href="https://github.com/guilherme23x">Github</a></li>
-                <li><a href="https://mail.google.com/mail/u/0/?ogbl#inbox">E-mail</a></li>
-              </ul>
-            </nav>
-          </div>
-        </ul>
-      </footer>
-
-    
-
-    <script src="./js/menu.js"></script>
-    <script src="./js/script.js"></script>
-  </body>
 </html>

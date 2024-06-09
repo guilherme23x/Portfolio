@@ -1,3 +1,25 @@
+// Animação de Transição com o Scroll
+
+const sections = document.querySelectorAll(".animacao_scroll");
+
+const options = {
+  root: null,
+};
+
+const observer = new IntersectionObserver((entries, observer) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("visible");
+    } else {
+      entry.target.classList.remove("visible");
+    }
+  });
+});
+
+sections.forEach((section) => observer.observe(section, options));
+
+// Botão de Voltar ao Topo
+
 const voltar = document.querySelector(".topo");
 
 window.addEventListener("scroll", function (event) {
@@ -8,23 +30,12 @@ window.addEventListener("scroll", function (event) {
   }
 });
 
-window.addEventListener("scroll", function () {
-  var content = document.getElementById("Projetos");
-  var contentPosition = content.getBoundingClientRect().top;
-  var screenPosition = window.innerHeight;
+// Botão de Menu
 
-  if (contentPosition < screenPosition) {
-    content.classList.add("mostrar");
-    content.classList.remove("ocultar");
-  } else {
-    content.classList.remove("mostrar");
-    content.classList.add("ocultar");
-  }
-});
+const menuLateral = document.querySelector(".menu-lateral");
+const botaoMenu = document.querySelector(".botao-menu");
 
-// Selecione todas as imagens com a classe 'imagem' e adicione o evento de clique a cada uma
-document.querySelectorAll(".imagem").forEach(function (imagem) {
-  imagem.addEventListener("click", function () {
-    this.classList.toggle("imagem-fullscreen");
-  });
+botaoMenu.addEventListener("click", () => {
+  menuLateral.classList.toggle("ativo");
+  botaoMenu.classList.toggle("ativo");
 });
