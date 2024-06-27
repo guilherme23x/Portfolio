@@ -240,12 +240,6 @@ main {
     text-align: center;
   }
 
-  .separacao {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    gap: 2.6rem;
-  }
 
   .botoes {
     display: flex;
