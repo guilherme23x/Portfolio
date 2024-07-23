@@ -1,99 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/projetos.css" />
-    <link rel="stylesheet" href="../css/geralCabecalho.css" />
-    <title>Portfólio - Aplicativos</title>
-  </head>
 
-  <body>
-    <!-- Cabeçalho -->
-    <header>
-      <nav>
-        <a href="" class="tituloNav">Guilherme</a>
-        <ul class="linksNav">
-          <li><a href="../index.html#Sobre">Sobre</a></li>
-          <li><a href="../index.html#Projetos">Projetos</a></li>
-          <li><a href="../index.html#Habilidades">Habilidades</a></li>
-          <li><a href="../index.html#Contatos">Contatos</a></li>
-        </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/projetos.css" />
+  <link rel="stylesheet" href="../css/geralCabecalho.css" />
+  <title>Portfólio - Aplicativos</title>
+</head>
 
-        <!-- Menu Mobile -->
-        <button onclick="botaoMenu()" class="menuBotao">
-          <i class="fa-solid fa-bars"></i>
-        </button>
-        <div class="linksNavMobile">
-          <a href="../index.html#Sobre">Sobre</a>
-          <a href="../index.html#Projetos">Projetos</a>
-          <a href="../index.html#Habilidades">Habilidades</a>
-          <a href="../index.html#Contatos">Contatos</a>
-        </div>
-      </nav>
-    </header>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <nav>
+      <a href="" class="tituloNav">Guilherme</a>
+      <ul class="linksNav">
+        <li><a href="../index.html#Sobre">Sobre</a></li>
+        <li><a href="../index.html#Projetos">Projetos</a></li>
+        <li><a href="../index.html#Habilidades">Habilidades</a></li>
+        <li><a href="../index.html#Contatos">Contatos</a></li>
+      </ul>
 
-    <section id="Projetos" class="secaoProjetos">
-      <h2 class="tituloProjetos">Aplicativos</h2>
-
-      <div class="cartoesProjetos">
-
-        <div class="card">
-          <a
-            class="cardLink"
-            href="https://github.com/guilherme23x/King-of-Computing-App-2"
-          >
-            <img
-              class="imagemCard"
-              src="../img/KingOfComputing.png"
-              alt="King of Computing Imagem"
-            />
-            <h3 class="tituloCard">K.O.C</h3>
-            <p class="textoCard">
-              Interface copiada de outra pessoa, com o intuito diferente.(React
-              Native)
-            </p>
-            <a
-              class="codigo"
-              href="https://github.com/guilherme23x/King-of-Computing-App-2"
-              >Código</a
-            >
-          </a>
-        </div>
-
-        <div class="card">
-          <a
-            class="cardLink"
-            href="https://github.com/guilherme23x/TG-Burguer"
-          >
-            <img
-              class="imagemCard"
-              src="../img/TGBurguer.png"
-              alt="King of Computing Imagem"
-            />
-            <h3 class="tituloCard">TG Burguer</h3>
-            <p class="textoCard">
-              Um projeto feito as preças, com uma interfaces simples e objetivas.(React Native)
-            </p>
-            <a
-              class="codigo"
-              href="https://github.com/guilherme23x/TG-Burguer"
-              >Código</a
-            >
-          </a>
-        </div>
-       
+      <!-- Menu Mobile -->
+      <button onclick="botaoMenu()" class="menuBotao">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="linksNavMobile">
+        <a href="../index.html#Sobre">Sobre</a>
+        <a href="../index.html#Projetos">Projetos</a>
+        <a href="../index.html#Habilidades">Habilidades</a>
+        <a href="../index.html#Contatos">Contatos</a>
       </div>
-    </section>
+    </nav>
+  </header>
 
-    <!-- Botão de Voltar ao Topo -->
-    <div class="voltarTopo" onclick="voltaraoTopo()"></div>
-  </body>
+  <section id="Projetos" class="secaoProjetos">
+    <h2 class="tituloProjetos">Aplicativos</h2>
 
-  <!-- Font Awesome (Icones) -->
-  <script
-    src="https://kit.fontawesome.com/7cd1c80b15.js"
-    crossorigin="anonymous"
-  ></script>
-  <script src="../js/script.js"></script>
+    <div class="cartoesProjetos">
+
+      <div class="card">
+        <a class="cardLink" target="_blank" href="https://github.com/guilherme23x/King-of-Computing-App-2">
+          <img class="imagemCard" src="../img/KingOfComputing.png" alt="King of Computing Imagem" />
+          <h3 class="tituloCard">K.O.C</h3>
+          <p class="textoCard">
+            Interface copiada de outra pessoa, com o intuito diferente.(React
+            Native)
+          </p>
+          <a class="codigo" target="_blank" href="https://github.com/guilherme23x/King-of-Computing-App-2">Código</a>
+        </a>
+      </div>
+
+      <div class="card">
+        <a class="cardLink" target="_blank" href="https://github.com/guilherme23x/TG-Burguer">
+          <img class="imagemCard" src="../img/TGBurguer.png" alt="King of Computing Imagem" />
+          <h3 class="tituloCard">TG Burguer</h3>
+          <p class="textoCard">
+            Um projeto feito as preças, com uma interfaces simples e objetivas.(React Native)
+          </p>
+          <a class="codigo" target="_blank" href="https://github.com/guilherme23x/TG-Burguer">Código</a>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Botão de Voltar ao Topo -->
+  <div class="voltarTopo" onclick="voltaraoTopo()"></div>
+</body>
+
+<!-- Font Awesome (Icones) -->
+<script src="https://kit.fontawesome.com/7cd1c80b15.js" crossorigin="anonymous"></script>
+<script src="../js/script.js"></script>
+
 </html>
