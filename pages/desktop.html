@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/projetos.css" />
+  <link rel="stylesheet" href="../css/geralCabecalho.css" />
+  <title>Portfólio - Desktop</title>
+</head>
+
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <nav>
+      <a href="" class="tituloNav">Guilherme</a>
+      <ul class="linksNav">
+        <li><a href="../index.html#Sobre">Sobre</a></li>
+        <li><a href="../index.html#Projetos">Projetos</a></li>
+        <li><a href="../index.html#Habilidades">Habilidades</a></li>
+        <li><a href="../index.html#Contatos">Contatos</a></li>
+      </ul>
+
+      <!-- Menu Mobile -->
+      <button onclick="botaoMenu()" class="menuBotao">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="linksNavMobile">
+        <a href="../index.html#Sobre">Sobre</a>
+        <a href="../index.html#Projetos">Projetos</a>
+        <a href="../index.html#Habilidades">Habilidades</a>
+        <a href="../index.html#Contatos">Contatos</a>
+      </div>
+    </nav>
+  </header>
+
+  <section id="Projetos" class="secaoProjetos">
+    <h2 class="tituloProjetos">Desktop</h2>
+
+    <div class="cartoesProjetos">
+
+      <div class="card">
+        <a class="cardLink" href="https://github.com/guilherme23x/Agencia-Avioes-C_charp">
+          <img class="imagemCard" src="../img/AviaoAgencia.png" alt="King of Computing Imagem" />
+          <h3 class="tituloCard">Agência de Aviões</h3>
+          <p class="textoCard">
+            Projeto feito para gerenciar os clientes, produtos e funcionários.(C#)
+          </p>
+          <a class="codigo" href="https://github.com/guilherme23x/Agencia-Avioes-C_charp">Código</a>
+        </a>
+      </div>
+
+      <div class="card">
+        <a class="cardLink" href="https://github.com/guilherme23x/Bloco-de-Notas-C_charp">
+          <img class="imagemCard" src="../img/Notepad.png" alt="King of Computing Imagem" />
+          <h3 class="tituloCard">NotePad</h3>
+          <p class="textoCard">
+            Uma réplica do bloco de notas com as mesmas funções básicas.(C#)
+          </p>
+          <a class="codigo" href="https://github.com/guilherme23x/Bloco-de-Notas-C_charp">Código</a>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Botão de Voltar ao Topo -->
+  <div class="voltarTopo" onclick="voltaraoTopo()"></div>
+</body>
+
+<!-- Font Awesome (Icones) -->
+<script src="https://kit.fontawesome.com/7cd1c80b15.js" crossorigin="anonymous"></script>
+<script src="../js/script.js"></script>
+
+</html>

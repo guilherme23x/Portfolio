@@ -1,0 +1,147 @@
+:root {
+  --darkBlue: #232836;
+  --darkGrey: #4b566b;
+  --branco: #f5f5f5;
+  --laranja: #f24861;
+  --escuroCard: #1e222e;
+}
+
+.secaoProjetos {
+  width: 100%;
+  height: 100vh;
+  padding: 1.6rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 4.2rem;
+  font-weight: 200;
+  color: var(--branco);
+}
+
+.cartoesProjetos {
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-y: scroll;
+  padding: 1.2rem;
+  width: 85%;
+  height: 55vh;
+}
+
+
+/* Scroll do Mouse */
+
+.cartoesProjetos::-webkit-scrollbar,
+.cartoesDesenhos::-webkit-scrollbar
+{
+  width: 0.6rem;
+}
+
+.cartoesProjetos::-webkit-scrollbar-track,
+.cartoesDesenhos::-webkit-scrollbar-track {
+  background: var(--darkBlue);
+}
+
+.cartoesProjetos::-webkit-scrollbar-thumb,
+.cartoesDesenhos::-webkit-scrollbar-thumb {
+  background-color: var(--darkGrey);
+  border-radius: 20px;
+  border: 3px solid --darkGrey;
+}
+
+.cardLink {
+  position: relative;
+  width: 25rem;
+  height: 30rem;
+  background-color: var(--escuroCard);
+  border-radius: 1rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  transition: .1s;
+}
+
+.cardLink:hover {
+  transform: translateY(-3px);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 5px;
+}
+
+.imagemCard {
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 100%;
+  height: 50%;
+  object-fit: contain;
+  top: 0;
+  position: absolute;
+  background: #f24861;
+  background: linear-gradient(50deg, #f24861 0%, #f37b5f 100%);
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 2rem;
+  left: 1rem;
+  top: 55%;
+  position: absolute;
+  color: var(--branco);
+}
+
+p {
+  position: absolute;
+  bottom: 5%;
+  padding: 1rem;
+  text-align: left;
+  color: var(--branco);
+  font-size: 1.4rem;
+}
+
+.codigo {
+  color: var(--branco);
+  background-color: var(--laranja);
+  text-decoration: none;
+  padding: 1rem;
+  right: 0;
+  top: 55%;
+  font-size: 1.6rem;
+}
+
+
+/* Card de Desenhos */
+
+.cartoesDesenhos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.4rem;
+  justify-content: space-around;
+  align-items: center;
+  overflow-y: scroll;
+  width: 100%;
+  height: 70vh;
+  padding: 2.4rem;
+  overflow-x: hidden;
+
+  .imagem {
+    width: 35rem;
+    height: auto;
+    object-fit: contain;
+    background: linear-gradient(50deg, #f24861 0%, #f37b5f 100%);
+    padding: .8rem;
+    border-radius: 1rem;
+    transition: .1s;
+  }
+
+  .imagem:hover{
+    transform: scale(120%);
+    box-shadow: rgba(0, 0, 0, 0.938) 0px 7px 5px 0px;
+  }
+
+}

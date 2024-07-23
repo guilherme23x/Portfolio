@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/geralCabecalho.css" />
+  <title>Portfólio</title>
+</head>
+
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <nav>
+      <a href="" class="tituloNav">Guilherme</a>
+      <ul class="linksNav">
+        <li><a href="#Sobre">Sobre</a></li>
+        <li><a href="#Projetos">Projetos</a></li>
+        <li><a href="#Habilidades">Habilidades</a></li>
+        <li><a href="#Contatos">Contatos</a></li>
+      </ul>
+
+      <!-- Menu Mobile -->
+      <button onclick="botaoMenu()" class="menuBotao">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="linksNavMobile">
+        <a href="#Sobre">Sobre</a>
+        <a href="#Projetos">Projetos</a>
+        <a href="#Habilidades">Habilidades</a>
+        <a href="#Contatos">Contatos</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Corpo -->
+  <main>
+    <!-- Home -->
+    <section id="Home" class="home">
+      <h1>Guilherme Gomes</h1>
+      <h2>Front-End & Minimalista</h2>
+      <div class="seta" href=""></div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="Sobre" class="sobre">
+      <img src="./img/Perfil.jpg" alt="Imagem de Perfil" />
+      <div class="textoSobre">
+        <h2>Sobre</h2>
+        <p>
+          Olá, sou Guilherme, tenho 19 anos e gosto de desenvolver interfaces
+          <span>Web </span> usando <span>HTML/CSS/Javascript</span> com o
+          propósito de deixar tudo fácil e intuítivo para o usuário, deixar a
+          melhor experiência caso ele acesse várias vezes por necessitar.
+          Tenho um Hobby de <span>Desenhar</span> diversas coisas, tanto
+          carros quanto personagens (realista, animes e desenhos animados)
+          dedicando ao máximo e aprendendo com os erros.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="Projetos" class="projetos">
+      <h2>Projetos</h2>
+
+      <div class="cardsProjetos">
+
+        <a href="./pages/sites.html">
+          <div class="cardProjeto">
+            <div class="metadeCardProjeto"></div>
+            <i class="fa-solid fa-earth-asia"></i>
+            <div class="containerCardProjeto">
+              <h3>Sites</h3>
+              <p>Sites feitos em Html/Css e um pouco de JavaScript</p>
+            </div>
+          </div>
+        </a>
+
+
+
+          <a href="./pages/aplicativos.html">
+            <div class="cardProjeto">
+              <div class="metadeCardProjeto"></div>
+              <i class="fa-solid fa-mobile"></i>
+              <div class="containerCardProjeto">
+                <h3>Aplicativos</h3>
+                <p>Interfaces simples com um belo propósito de interação</p>
+              </div>
+            </div>
+          </a>
+ 
+
+          <a href="./pages/desktop.html">
+            <div class="cardProjeto">
+              <div class="metadeCardProjeto"></div>
+              <i class="fa-solid fa-display"></i>
+              <div class="containerCardProjeto">
+                <h3>Programas</h3>
+                <p>Projetos feitos para aprender o uso do C# para desktop</p>
+              </div>
+            </div>
+          </a>
+ 
+          <a href="./pages/desenhos.html">
+            <div class="cardProjeto">
+              <div class="metadeCardProjeto"></div>
+              <i class="fa-solid fa-compass-drafting"></i>
+              <div class="containerCardProjeto">
+                <h3>Desenhos</h3>
+                <p>Desenhos feitos a mão como um Hobby de prazer</p>
+              </div>
+            </div>
+          </a>
+     
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="Habilidades" class="habilidades">
+      <h2>Habilidades</h2>
+
+      <div class="containerHabilidades">
+        <i class="fa-brands fa-html5">
+          <h3>HTML5</h3>
+        </i>
+        <i class="fa-brands fa-css3-alt">
+          <h3>CSS3</h3>
+        </i>
+        <i class="fa-brands fa-react">
+          <h3>React Native</h3>
+        </i>
+        <i class="fa-solid fa-book">
+          <h3>Desenhar</h3>
+        </i>
+        <i class="fa-brands fa-square-js">
+          <h3>JavaScript</h3>
+        </i>
+        <i class="fa-brands fa-python">
+          <h3>Python</h3>
+        </i>
+        <i class="fa-solid fa-chart-column">
+          <h3>Power BI</h3>
+        </i>
+        <i class="fa-brands fa-windows">
+          <h3>Informática</h3>
+        </i>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer id="Contatos">
+    <h2>Contatos</h2>
+    <h3>
+      Estou ansioso para colaborar com você. Entre em contato para discutir
+      projetos emocionantes e oportunidades criativas.
+    </h3>
+    <div>
+      <a target="_blank" href="https://github.com/guilherme23x"><i class="fa-brands fa-github"></i></a>
+      <a target="_blank" href="https://mail.google.com/mail/u/0/?ogbl#inbox"><i class="fa-regular fa-envelope"></i></a>
+      <a target="_blank" href="https://www.linkedin.com/in/guilherme-gomes-da-silva-87ab932a5/"><i
+          class="fa-brands fa-linkedin"></i></a>
+    </div>
+  </footer>
+
+  <!-- Botão de Voltar ao Topo -->
+  <div class="voltarTopo" onclick="voltaraoTopo()"></div>
+</body>
+
+<!-- Font Awesome (Icones) -->
+<script src="https://kit.fontawesome.com/7cd1c80b15.js" crossorigin="anonymous"></script>
+<script src="./js/script.js"></script>
+
+</html>
