@@ -92,6 +92,7 @@ nav {
   border: solid transparent;
   border-width: 0 0 2px 2px;
   transform: rotate(135deg);
+  cursor: pointer;
 }
 
 .voltarTopo.active {
