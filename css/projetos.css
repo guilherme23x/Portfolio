@@ -2,7 +2,7 @@
   --darkBlue: #232836;
   --darkGrey: #4b566b;
   --branco: #f5f5f5;
-  --laranja: #f24861;
+  --laranja: #48f29d;
   --escuroCard: #1e222e;
 }
 
@@ -38,8 +38,7 @@ h2 {
 /* Scroll do Mouse */
 
 .cartoesProjetos::-webkit-scrollbar,
-.cartoesDesenhos::-webkit-scrollbar
-{
+.cartoesDesenhos::-webkit-scrollbar {
   width: 0.6rem;
 }
 
@@ -82,8 +81,8 @@ h2 {
   object-fit: contain;
   top: 0;
   position: absolute;
-  background: #f24861;
-  background: linear-gradient(50deg, #f24861 0%, #f37b5f 100%);
+  background: #48f2b9;
+  background: linear-gradient(50deg, #48f2bfa1 0%, #5ff3c7 100%);
 }
 
 h3 {
@@ -105,7 +104,7 @@ p {
 }
 
 .codigo {
-  color: var(--branco);
+  color: var(--escuroCard);
   background-color: var(--laranja);
   text-decoration: none;
   padding: 1rem;
@@ -133,13 +132,13 @@ p {
     width: 35rem;
     height: auto;
     object-fit: contain;
-    background: linear-gradient(50deg, #f24861 0%, #f37b5f 100%);
+    background: linear-gradient(50deg, #48f2bf 0%, #4ac59c 100%);
     padding: .8rem;
     border-radius: 1rem;
     transition: .1s;
   }
 
-  .imagem:hover{
+  .imagem:hover {
     transform: scale(120%);
     box-shadow: rgba(0, 0, 0, 0.938) 0px 7px 5px 0px;
   }

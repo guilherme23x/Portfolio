@@ -130,8 +130,8 @@
     top: 30%;
     font-size: 2em;
     color: var(--branco);
-    background: #f24861;
-    background: linear-gradient(50deg, #f24861 0%, #f37b5f 100%);
+    background: #48f2b9;
+    background: linear-gradient(50deg, #35bb93 0%, #5ff3c7 100%);
     width: 5.6rem;
     height: 5.6rem;
     align-items: center;
@@ -139,6 +139,7 @@
     justify-content: center;
     padding: 1.6rem;
     border-radius: 50%;
+    color: #1f2225e1;
   }
 
   .cardProjeto:hover {
@@ -176,10 +177,10 @@
   .metadeCardProjeto,
   img {
     display: block;
-    background: rgb(242, 72, 97);
+    background: rgb(72, 242, 171);
     background: linear-gradient(50deg,
-        rgba(242, 72, 97, 1) 0%,
-        rgba(243, 123, 95, 1) 100%);
+        rgb(46, 158, 121) 0%,
+        rgb(95, 243, 181) 100%);
     width: 100%;
     height: 55%;
     position: absolute;
@@ -217,11 +218,11 @@
     height: 8rem;
     font-size: 4.8rem;
     border-radius: 2.4rem;
-    background: #f24861;
+    background: rgb(72, 242, 171);
     background: linear-gradient(50deg,
-        rgba(242, 72, 97, 1) 0%,
-        rgba(243, 123, 95, 1) 100%);
-    color: var(--branco);
+        rgb(46, 158, 121) 0%,
+        rgb(95, 243, 181) 100%);
+    color: #1f2225e1;
     position: relative;
     display: flex;
     flex-flow: column;
@@ -245,11 +246,12 @@
     display: none;
     bottom: -20%;
     padding: 0.8rem;
+    color: white;
     font-weight: 300;
     border-radius: 1rem;
     background-color: #1f2225e1;
     position: absolute;
-    box-shadow: #f2715f 0px 2px 2px;
+    box-shadow: #46b392 0px 2px 2px;
     z-index: 5;
   }
 }
