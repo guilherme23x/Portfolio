@@ -129,6 +129,7 @@ nav {
   .card {
     gap: 1.2rem;
     align-items: center;
+    justify-content: space-between;
   }
 
   img,
@@ -151,6 +152,31 @@ nav {
 
   h5 {
     font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .sobreConteudo {
+    width: 100%;
+    h3 {
+      font-size: 1.6rem;
+      width: 100%;
+    }
+    p {
+      font-size: 1.4rem;
+      line-height: 2.5rem;
+    }
+
+    img {
+      width: 30%;
+    }
+
+    .card {
+      gap: 0.5rem;
+    }
+    .screenIcon {
+      width: 25%;
+    }
   }
 }
 
@@ -190,6 +216,12 @@ nav {
   }
 }
 
+@media screen and (max-width: 1366px) {
+  .containerCarreira {
+    padding: 5rem;
+  }
+}
+
 /* Ptojetos */
 
 .projetos {
@@ -218,7 +250,7 @@ nav {
     gap: 2rem;
     height: 30rem;
     line-height: 2.5rem;
-    transition: .7s;
+    transition: 0.7s;
 
     &:hover {
       transform: translateY(-5px);
@@ -236,8 +268,22 @@ nav {
       line-height: 3rem;
     }
   }
+ 
 }
 
+@media screen and (max-width: 1366px) {
+  .cartoesProjetos {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.2rem;
+    .card{
+      width: 22rem;
+    }
+  }
+
+}
 /* Social */
 
 .social {
@@ -273,7 +319,7 @@ nav {
     font-size: 1.4rem;
     margin: 1rem;
     text-align: center;
-    transition:  0.7s;
+    transition: 0.7s;
 
     &:hover img {
       transition: 0.7s;
