@@ -39,6 +39,12 @@ header {
   width: 100%;
 }
 
+.linksNav {
+  display: flex;
+  gap: 2.4rem;
+  list-style: none;
+}
+
 nav {
   width: 100%;
   height: 8vh;
@@ -268,7 +274,6 @@ nav {
       line-height: 3rem;
     }
   }
- 
 }
 
 @media screen and (max-width: 1366px) {
@@ -278,11 +283,10 @@ nav {
     justify-content: space-between;
     align-items: center;
     gap: 1.2rem;
-    .card{
+    .card {
       width: 22rem;
     }
   }
-
 }
 /* Social */
 
@@ -333,5 +337,105 @@ nav {
       border: #183030 solid 1px;
       border-radius: 50%;
     }
+  }
+}
+
+/* Menu Hamburguer */
+
+.menuBotao {
+  display: none;
+}
+
+.linksNavMobile {
+  display: none;
+}
+
+.linksNavMobile.active {
+  display: block;
+  z-index: 2;
+}
+
+/* Responsivo */
+
+@media screen and (max-width: 768px) {
+  /* Menu Hamburguer */
+  .linksNav {
+    display: none;
+  }
+
+  .menuBotao {
+    font-size: 2.4rem;
+    display: block;
+    background-color: transparent;
+    border: 0px solid;
+    color: white;
+  }
+
+  .linksNavMobile.active {
+    display: flex;
+    flex-flow: column;
+    gap: 2.4rem;
+    top: 8rem;
+    text-align: center;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    width: 70%;
+    z-index: 1;
+    position: fixed;
+
+    a {
+      font-size: 1.8rem;
+    }
+  }
+
+  /* Sobre */
+  .containerSobre {
+    width: 90%;
+    height: auto;
+    border: none;
+    padding: 1.8rem;
+
+    .perfilSobre {
+      display: none;
+    }
+
+    .sobreConteudo {
+      width: 100%;
+    }
+
+    .screenIcon {
+      width: 3.5rem;
+    }
+  }
+
+  /* Carreira */
+
+  .containerCarreira{
+    width: 90%;
+    height: auto;
+    flex-flow: column;
+    gap: 1.2rem;
+  }
+
+  /* Projetos */
+
+  .cartoesProjetos{
+    width: 80%;
+    align-items: center;
+    height: auto;
+    gap: 1.2rem;
+    justify-content: center;
+
+    .card{
+      width: 80%;
+      margin: auto auto;
+    }
+  }
+
+  /* Social */
+
+  .containerSocial{
+    width: 90%;
+    height: auto;
   }
 }

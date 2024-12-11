@@ -11,8 +11,19 @@
 <body>
   <header>
     <nav>
-      <a href="#Home">Gui23x</a>
-      <div class="menuNav">
+      <a href="./index.html" class="tituloNav">Guilherme</a>
+      <ul class="linksNav">
+        <li><a href="#Sobre">Sobre</a></li>
+        <li><a href="#Carreira">Carreira</a></li>
+        <li><a href="#Projetos">Projetos</a></li>
+        <li><a href="#Social">Social</a></li>
+      </ul>
+
+      <!-- Menu Mobile -->
+      <button onclick="botaoMenu()" class="menuBotao">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="linksNavMobile">
         <a href="#Sobre">Sobre</a>
         <a href="#Carreira">Carreira</a>
         <a href="#Projetos">Projetos</a>
@@ -29,38 +40,32 @@
 
     <section class="sobre" id="Sobre">
       <div class="containerSobre">
-        <img class="perfilSobre" src="" alt="">
-
+        <img class="perfilSobre" src="" alt="Foto de Guilherme Silva">
         <div class="sobreConteudo">
           <h2 class="tituloSecoes">Sobre</h2>
           <h3>Um desenhista amante de Front-End, Café😋 & Tecnologia🖥️</h3>
           <p>Olá, sou Guilherme, tenho 19 anos e gosto de desenvolver interfaces Web usando HTML/CSS/Javascript com o
-            propósito de deixar tudo fácil e intuítivo para o usuário, deixar a melhor experiência caso ele acesse
-            várias vezes por necessitar. Tenho um Hobby de Desenhar diversas coisas, tanto carros quanto personagens
-            (realista, animes e desenhos animados) dedicando ao máximo e aprendendo com os erros. </p>
-
+            propósito de deixar tudo fácil e intuitivo para o usuário, oferecendo a melhor experiência possível. Tenho
+            um hobby de desenhar, criando desde carros até personagens (realistas, animes e desenhos animados), sempre
+            me dedicando ao máximo e aprendendo com os erros.</p>
           <div class="cartoesSobre">
-
             <div class="card">
-              <img src="./img/icons/Pencil 2.png" alt="">
+              <img src="./img/icons/Pencil 2.png" alt="Ícone de lápis">
               <h4>Hobby</h4>
               <h5>Desenhar</h5>
             </div>
-
             <div class="card">
-              <img class="screenIcon" src="./img/icons/Screen.png" alt="">
+              <img class="screenIcon" src="./img/icons/Screen.png" alt="Ícone de computador">
               <h4>Sistema</h4>
               <h5>Linux / Windows</h5>
             </div>
-
             <div class="card">
-              <img class="camIcon" src="./img/icons/Cam.png" alt="">
+              <img class="camIcon" src="./img/icons/Cam.png" alt="Ícone de câmera">
               <h4>Filme</h4>
               <h5>Godzilla</h5>
             </div>
-
             <div class="card">
-              <img src="./img/icons/Map.png" alt="">
+              <img src="./img/icons/Map.png" alt="Ícone de mapa">
               <h4>Cidade</h4>
               <h5>SBC, SP</h5>
             </div>
@@ -70,9 +75,7 @@
     </section>
 
     <section class="carreira" id="Carreira">
-
       <div class="containerCarreira">
-
         <div class="conteudoCarreira">
           <h2 class="tituloSecoes">Carreira</h2>
           <div class="cardCarreira">
@@ -106,71 +109,67 @@
     <section class="projetos" id="Projetos">
       <h2 class="tituloSecoes">Projetos</h2>
       <div class="cartoesProjetos">
-
         <a href="">
           <div class="card">
-            <img src="./img/icons/fi_sidebar.png" alt="">
-            <h3 class="tituloSecoes">Web Sites</h3>
+            <img src="./img/icons/fi_sidebar.png" alt="Ícone de website">
+            <h3>Web Sites</h3>
             <p>Sites feitos em HTML/CSS e JavaScript com ótimos layouts.</p>
           </div>
         </a>
-
         <a href="">
           <div class="card">
-            <img src="./img/icons/DeviceMobileCamera.png" alt="">
-            <h3 class="tituloSecoes">Aplicativos</h3>
+            <img src="./img/icons/DeviceMobileCamera.png" alt="Ícone de aplicativo">
+            <h3>Aplicativos</h3>
             <p>Interfaces simples com um belo propósito de interação.</p>
           </div>
-
         </a>
         <a href="">
           <div class="card">
-            <img src="./img/icons/DesktopTower.png" alt="">
-            <h3 class="tituloSecoes">Desktop</h3>
+            <img src="./img/icons/DesktopTower.png" alt="Ícone de desktop">
+            <h3>Desktop</h3>
             <p>Projetos feitos para aprender o uso de C# para Desktop</p>
           </div>
         </a>
         <a href="">
           <div class="card">
-            <img src="./img/icons/PencilSimpleLine.png" alt="">
-            <h3 class="tituloSecoes">Desenhos</h3>
-            <p>Desenhos que faço a mão como um Hobby de prazer e diversão.</p>
+            <img src="./img/icons/PencilSimpleLine.png" alt="Ícone de desenho">
+            <h3>Desenhos</h3>
+            <p>Desenhos feitos à mão como hobby e prazer.</p>
           </div>
         </a>
       </div>
     </section>
 
     <section class="social" id="Social">
-
       <div class="containerSocial">
         <h2 class="tituloSecoes">Social</h2>
-
         <div class="cartoesSocial">
-
           <div class="card">
             <a target="_blank" href="https://github.com/guilherme23x">
-              <img src="./img/icons/fi_github.png" alt="">
+              <img src="./img/icons/fi_github.png" alt="Ícone do GitHub">
               <h3>Github</h3>
             </a>
           </div>
-
           <div class="card">
             <a target="_blank" href="https://www.linkedin.com/in/guilherme-gomes-da-silva-87ab932a5/">
-              <img src="./img/icons/LinkedinLogo.png" alt="">
+              <img src="./img/icons/LinkedinLogo.png" alt="Ícone do LinkedIn">
               <h3>Linkedin</h3>
             </a>
           </div>
-
           <div class="card">
             <a target="_blank" href="https://mail.google.com/mail/u/0/?ogbl#inbox">
-              <img src="./img/icons/mail.png" alt="">
-              <h3>E-mail</h3>
+              <img src="./img/icons/mail.png" alt="Ícone de e-mail">
+              <h3>Email</h3>
             </a>
           </div>
         </div>
       </div>
     </section>
   </main>
+
+  <!-- Font Awesome (Icones) -->
+  <script src="https://kit.fontawesome.com/7cd1c80b15.js" crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
 </body>
 
 </html>
