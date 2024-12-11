@@ -236,11 +236,16 @@ nav {
   align-items: center;
   justify-content: center;
   gap: 2.4rem;
+  height: 100vh;
 }
 
 .cartoesProjetos {
   display: flex;
+  gap: 1.5rem;
   flex-wrap: wrap;
+  overflow: scroll;
+  padding: 1.6rem;
+  height: 50vh;
   align-items: center;
   justify-content: space-around;
   width: 60%;
@@ -410,7 +415,7 @@ nav {
 
   /* Carreira */
 
-  .containerCarreira{
+  .containerCarreira {
     width: 90%;
     height: auto;
     flex-flow: column;
@@ -419,14 +424,14 @@ nav {
 
   /* Projetos */
 
-  .cartoesProjetos{
+  .cartoesProjetos {
     width: 80%;
     align-items: center;
     height: auto;
     gap: 1.2rem;
     justify-content: center;
 
-    .card{
+    .card {
       width: 80%;
       margin: auto auto;
     }
@@ -434,7 +439,7 @@ nav {
 
   /* Social */
 
-  .containerSocial{
+  .containerSocial {
     width: 90%;
     height: auto;
   }
