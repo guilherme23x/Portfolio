@@ -12,7 +12,7 @@ fetch("./projetosMobile.json")
       card.innerHTML = `
        <a target="_blank" href="${projeto.url}">
             <div class="card">
-              <img class="imgProjeto" src="${projeto.imagem}" alt="Imagem do Projeto">
+              <img class="mobile" src="${projeto.imagem}" alt="Imagem do Projeto">
               <h3>${projeto.titulo}</h3>
               <p>${projeto.descricao}</p>
               <a  target="_blank" class="codigoProjeto" href="${projeto.codigo}">Código</a>
