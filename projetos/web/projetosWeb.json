@@ -1,0 +1,46 @@
+{
+  "projetos": [
+    {
+      "titulo": "Rufus",
+      "descricao": "Uma ladding-page de um programa para formatar o PC. Html/CSS",
+      "url": "https://guilherme23x.github.io/Rufus/",
+      "imagem": "../../img/projetos web/Rufus.png",
+      "codigo": "https://github.com/guilherme23x/Rufus"
+    },
+    {
+      "titulo": "Pará",
+      "descricao": "Mostrar um pouco da Cultura e uma Cantora. Html/CSS",
+      "url": "https://guilherme23x.github.io/Fafa-Belem/",
+      "imagem": "../../img/projetos web/Pará.png",
+      "codigo": "https://github.com/guilherme23x/Fafa-Belem"
+    },
+    {
+      "titulo": "Cafeteria",
+      "descricao": "Site de uma Cafeteria com um menu lateral. Html/Css/Js",
+      "url": "https://guilherme23x.github.io/Xpress-coffe/",
+      "imagem": "../../img/projetos web/Café.png",
+      "codigo": "https://github.com/guilherme23x/Xpress-coffe"
+    },
+    {
+      "titulo": "New-Google",
+      "descricao": "Cópia remasterizada do site do Google. Html/Css/Js",
+      "url": "https://guilherme23x.github.io/New-Google/",
+      "imagem": "../../img/projetos web/NewGoogle.png",
+      "codigo": "https://github.com/guilherme23x/New-Google"
+    },
+    {
+      "titulo": "Cubo 3D",
+      "descricao": "Usando eixo z para adicionar profundidade. Html/CSS",
+      "url": "https://guilherme23x.github.io/Cubo/",
+      "imagem": "../../img/projetos web/Cubo.png",
+      "codigo": "https://github.com/guilherme23x/Cubo"
+    },
+    {
+      "titulo": "Eyedropper",
+      "descricao": "Site de Conta Gotas, para pegar cores fácil. Html/Css",
+      "url": "https://guilherme23x.github.io/Eyedropper/",
+      "imagem": "../../img/projetos web/Eyedropper.png",
+      "codigo": "https://github.com/guilherme23x/Eyedropper"
+    }
+  ]
+}
