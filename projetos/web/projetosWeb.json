@@ -41,6 +41,20 @@
       "url": "https://guilherme23x.github.io/Eyedropper/",
       "imagem": "../../img/projetos web/Eyedropper.png",
       "codigo": "https://github.com/guilherme23x/Eyedropper"
+    },
+    {
+      "titulo": "Pokedex",
+      "descricao": "Aprendendo a funcionalidade de API. Html/Css/JavaScript",
+      "url": "https://guilherme23x.github.io/Pokemon-API/",
+      "imagem": "../../img/projetos web/Pokemon.png",
+      "codigo": "https://github.com/guilherme23x/Pokemon-API"
+    },
+    {
+      "titulo": "Easy Sheet",
+      "descricao": "Facilitadores para acelerar suas planilhas. Html/CSS",
+      "url": "https://guilherme23x.github.io/Facilitador-Planilha/",
+      "imagem": "../../img/projetos web/EasySheet.png",
+      "codigo": "https://github.com/guilherme23x/Facilitador-Planilha"
     }
   ]
 }

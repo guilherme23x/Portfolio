@@ -92,15 +92,16 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 10rem;
+  padding: 5rem;
   gap: 3.8rem;
 
-  .perfilSobre {
-    width: 50%;
-    height: 100%;
-    border: #183030 1px solid;
-    border-radius: 0.7rem;
-  }
+}
+
+.perfilSobre {
+  width: 50%;
+  height: 100%;
+  border: #183030 1px solid;
+  border-radius: 0.7rem;
 }
 
 .sobreConteudo {
@@ -162,24 +163,40 @@ nav {
 }
 
 @media screen and (max-width: 1366px) {
+  .perfilSobre {
+    width: 40%;
+    height: 100%;
+  }
+
   .sobreConteudo {
     width: 100%;
+
     h3 {
-      font-size: 1.6rem;
+      font-size: 1.4rem;
       width: 100%;
     }
+
     p {
-      font-size: 1.4rem;
+      font-size: 1.2rem;
       line-height: 2.5rem;
     }
 
+
+
     img {
       width: 30%;
+    
     }
 
     .card {
       gap: 0.5rem;
+
+      h5,
+      h4 {
+        font-size: 1.2rem;
+      }
     }
+
     .screenIcon {
       width: 25%;
     }
@@ -211,6 +228,7 @@ nav {
   height: 10vh;
   border-bottom: #183030 1px solid;
   line-height: 3rem;
+
   h3 {
     font-size: 1.6rem;
   }
@@ -290,6 +308,7 @@ nav {
       width: 80%;
       background-color: transparent;
     }
+
     .mobile {
       width: 30%;
     }
@@ -340,15 +359,17 @@ nav {
     flex-flow: column;
   }
 }
+
 @media screen and (max-width: 1366px) {
   .cartoesProjetos {
     width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 0.6rem;
+    gap: 0.2rem;
+
     .card {
-      width: 20rem;
+      width: 18rem;
       height: 30rem;
       margin: 0;
       gap: 1.2rem;
@@ -426,6 +447,7 @@ nav {
 /* Responsivo */
 
 @media screen and (max-width: 768px) {
+
   /* Menu Hamburguer */
   .linksNav {
     display: none;
